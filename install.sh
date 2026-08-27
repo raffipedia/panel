@@ -35,7 +35,7 @@ pterodactyl_custom() {
   php artisan down
 
   rm -rf resources
-  curl -L curl -L https://github.com/raffipedia/panel/releases/latest/download/panel.tar.gz | tar -xzv
+  curl -L https://github.com/raffipedia/panel/releases/latest/download/panel.tar.gz | tar -xzv
 
   chmod -R 755 storage/* bootstrap/cache
 
